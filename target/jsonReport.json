@@ -1,0 +1,243 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8333993716,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "To check the Booking Page in HomePage",
+        "description": "",
+        "id": "title-of-your-feature;to-check-the-booking-page-in-homepage;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 32005,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18898266711,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The User should see the Find a Flight Page in HomePage",
+            "match": {
+              "location": "StepDefinition.the_User_should_see_the_Find_a_Flight_Page_in_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2146951640,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The User Should select all the datas in Find a Flight Page till Search Flight \"Auckland\",\"Great Barrier Island (Claris)\",\"27/03/2019\",\"28/03/2019\",\"1\",\"2\",\"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Auckland\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"Great Barrier Island (Claris)\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"27/03/2019\"",
+                  "offset": 121
+                },
+                {
+                  "val": "\"28/03/2019\"",
+                  "offset": 134
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 147
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 151
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 155
+                }
+              ],
+              "location": "StepDefinition.the_User_Should_select_all_the_datas_in_Find_a_Flight_Page_till_Search_Flight(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33981,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The User should see the flight details",
+            "match": {
+              "location": "StepDefinition.the_User_should_see_the_flight_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/YUVARAJ/eclipse-workspace/SeleniumProject/Task4/src/test/resources/nz.co.flymysky.Feature/BookingPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13117514529,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To check all the links in WheremyFly and data need to be updated in requested page",
+        "description": "",
+        "id": "to-check-the-wheremyfly;to-check-all-the-links-in-wheremyfly-and-data-need-to-be-updated-in-requested-page",
+        "after": [
+          {
+            "result": {
+              "duration": 35166,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31522077339,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click the WhereMyFly link in HomePage",
+            "match": {
+              "location": "StepDefinitionWhereMyFly.click_the_WhereMyFly_link_in_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4188513912,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Once we click the GreatBarrierIsland its need to be go to there requested page and update the data",
+            "match": {
+              "location": "StepDefinitionWhereMyFly.once_we_click_the_GreatBarrierIsland_its_need_to_be_go_to_there_requested_page_and_update_the_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "2",
+                  "3",
+                  "12",
+                  "02/05/2019",
+                  "05/05/2019",
+                  "1",
+                  "1",
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65195,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Once we click the Whangarei link its need to be go to there requested page and update the data",
+            "match": {
+              "location": "StepDefinitionWhereMyFly.once_we_click_the_Whangarei_link_its_need_to_be_go_to_there_requested_page_and_update_the_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "2",
+                  "3",
+                  "12",
+                  "02/05/2019",
+                  "05/05/2019",
+                  "1",
+                  "1",
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat nz.co.flymysky.Stepdefinition.StepDefinitionWhereMyFly.once_we_click_the_SkyTaxi_and_Tour_its_need_to_be_go_there_requested_page(StepDefinitionWhereMyFly.java:43)\r\n\tat ✽.Once we click the SkyTaxi and Tour its need to be go there requested page(C:/Users/YUVARAJ/eclipse-workspace/SeleniumProject/Task4/src/test/resources/nz.co.flymysky.Feature/WhereWeFly.feature:9)\r\n",
+              "duration": 3099351,
+              "status": "pending"
+            },
+            "line": 9,
+            "name": "Once we click the SkyTaxi and Tour its need to be go there requested page",
+            "match": {
+              "location": "StepDefinitionWhereMyFly.once_we_click_the_SkyTaxi_and_Tour_its_need_to_be_go_there_requested_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20941,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "All the links must work",
+            "match": {
+              "location": "StepDefinitionWhereMyFly.all_the_links_must_work()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check the WheremyFly",
+    "description": "",
+    "id": "to-check-the-wheremyfly",
+    "keyword": "Feature",
+    "uri": "C:/Users/YUVARAJ/eclipse-workspace/SeleniumProject/Task4/src/test/resources/nz.co.flymysky.Feature/WhereWeFly.feature",
+    "tags": []
+  }
+]
