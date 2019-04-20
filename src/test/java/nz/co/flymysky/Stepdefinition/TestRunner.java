@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features ="C:\\Users\\YUVARAJ\\eclipse-workspace\\SeleniumProject\\Task4\\src\\test\\resources\\nz.co.flymysky.Feature",
 glue ="nz.co.flymysky.Stepdefinition", 
 monochrome=true,
-plugin = {"json:target/jsonReport.json","html:target"})
+plugin =  {"pretty","html:target/html", "json:cucumber.json"})
 
 
 public class TestRunner {
